@@ -1,0 +1,102 @@
+body{
+    background:white; 
+    position: fixed center;
+   }
+
+.card {
+    position: relative;
+    height: 460px;
+    width: 500px;
+    background-color: #fff;
+    margin: 100px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header {
+    position: absolute;
+    height: 220px;
+    width: 95%;
+    margin:0 auto;
+    left: 0;
+    right: 0;
+    top: -30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(to right, #1dd1a1, #1abc9c);
+    
+}
+
+.header img {
+    position: absolute;
+    border-radius: 50%;
+    height: 155px;
+    width: 125px;
+    left: 155px;
+    top: 15px;
+    
+    
+    
+}
+.body {
+    position: absolute;
+    height: 126px;
+    left: 5px;
+    right: 5px;
+    top: 52%;
+    border-radius: 12px;
+}
+
+.body h2 {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    right: 0;
+    top: 0px;
+    text-align: center;
+    color:rgb(6, 6, 80);
+    
+}
+.body p{
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    right: 0;
+    top: 12px;
+    text-align: center;
+    
+    color: green;
+}
+.body h5 {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    right: 0;
+    top: 28px;
+    text-align: center;
+    
+}
+
+
+
+/*footer*/
+
+.footer {
+    position: absolute;
+    height: 80px;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    border-radius: 12px;
+    width:95%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(to right, #1dd1a1, #1abc9c);
+}
+.footer a{
+    position: absolute;
+    height: 40px;
+    bottom: 20px;
+    left: 110px;
+    right: 20px;
+}
